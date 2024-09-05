@@ -1,0 +1,84 @@
+{
+    "name": "react-component-pkg-test",
+    "version": "0.0.1",
+    "description": "Just a little React component package in TypeScript",
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsup",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Andy Maskiell",
+    "license": "MIT",
+    "packageManager": "yarn@4.4.1",
+    "peerDependencies": {
+        "react": ">=18.3.3",
+        "react-dom": ">=18.3.0",
+        "styled-components": ">=6.1.11"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.23.0",
+        "@babel/core": "^7.23.0",
+        "@babel/eslint-parser": "^7.22.0",
+        "@babel/node": "^7.22.0",
+        "@babel/plugin-transform-class-properties": "^7.22.0",
+        "@babel/plugin-transform-modules-commonjs": "^7.23.0",
+        "@babel/plugin-transform-optional-chaining": "^7.23.0",
+        "@babel/plugin-transform-private-methods": "^7.22.0",
+        "@babel/plugin-transform-private-property-in-object": "^7.22.0",
+        "@babel/plugin-transform-runtime": "^7.23.0",
+        "@babel/polyfill": "^7.12.1",
+        "@babel/preset-env": "^7.23.0",
+        "@babel/preset-react": "^7.22.0",
+        "@babel/preset-typescript": "^7.24.6",
+        "@babel/runtime-corejs3": "^7.23.0",
+        "@types/babel__core": "^7",
+        "@types/babel__preset-env": "^7",
+        "@types/eslint": "^8",
+        "@types/react": "^18.3.3",
+        "@types/react-dom": "^18.3.0",
+        "@types/react-helmet": "^6.1.11",
+        "@typescript-eslint/eslint-plugin": "^7.0.1",
+        "@typescript-eslint/parser": "^7.0.0",
+        "@webpack-cli/generators": "^3.0.7",
+        "babel-loader": "^9.1.2",
+        "babel-plugin-module-resolver": "^5.0.0",
+        "css-loader": "^7.1.2",
+        "eslint": "^8.52.0",
+        "eslint-config-prettier": "^8.8.0",
+        "eslint-plugin-babel": "^5.3.1",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-jsx-a11y": "^6.5.1",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-react": "^7.28.0",
+        "eslint-plugin-react-hooks": "^4.2.0",
+        "html-webpack-plugin": "^5.6.0",
+        "prettier": "^3.1.0",
+        "prettier-eslint": "^16.1.2",
+        "tsup": "^8.2.4",
+        "typescript": "5.5.3",
+        "webpack": "^5.92.1",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^5.0.4"
+    },
+    "resolutions": {
+        "@types/react": "^18.3.3",
+        "@types/react-dom": "^18.3.0"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
